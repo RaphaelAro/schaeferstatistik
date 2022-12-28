@@ -97,9 +97,12 @@ for m in mannschaften:
                         else:
                             schaeferPositiv.append(schaeferDoku)
 
+print("\n\n ____ ERGEBNISSE ____")
+print("Für uns:")
 print(schaeferPositiv)
+print("\nGegen uns:")
 print(schaeferNegativ)
-
+print("\n\nEndergebnis:")
 print(len(schaeferPositiv), ':', len(schaeferNegativ))
 
 
